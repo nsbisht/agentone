@@ -1,6 +1,12 @@
 from google.adk.agents import Agent
 from .sub_agents.voice_agent import voice_agent
 from .sub_agents.chitra_patra import chitra_patra
+from .sub_agents.jigyasa_samadhan import jigyasa_samadhan
+from .sub_agents.sankhya_sthiti import sankhya_sthiti
+from .sub_agents.bhasha_bodhak import bhasha_bodhak
+from .sub_agents.samay_sutra import samay_sutra
+
+
 
 sahayak_agent = Agent(
     model="gemini-2.5-pro",
@@ -18,7 +24,11 @@ You are Sahayak, an AI-powered assistant for teachers in Indian classrooms.
     sub_agents=[
         voice_agent,
         chitra_patra,
-        # Add new agent variables here as you expand Sahayak
+        jigyasa_samadhan,
+        sankhya_sthiti,
+        bhasha_bodhak,
+        samay_sutra,
+        
     ]
 )
 
