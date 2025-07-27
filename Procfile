@@ -1,0 +1,1 @@
+web: uv run adk run web
