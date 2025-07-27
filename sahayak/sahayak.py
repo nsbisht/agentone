@@ -1,5 +1,4 @@
 from google.adk.agents import Agent
-from .sub_agents.voice_agent import voice_agent
 from .sub_agents.chitra_patra import chitra_patra
 from .sub_agents.jigyasa_samadhan import jigyasa_samadhan
 from .sub_agents.sankhya_sthiti import sankhya_sthiti
@@ -22,13 +21,11 @@ You are Sahayak, an AI-powered assistant for teachers in Indian classrooms.
 - Always reply in a concise, clear, teacher-friendly way.
 """,
     sub_agents=[
-        voice_agent,
         chitra_patra,
         jigyasa_samadhan,
         sankhya_sthiti,
         bhasha_bodhak,
         samay_sutra,
-        
     ]
 )
 
