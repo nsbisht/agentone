@@ -98,3 +98,41 @@ You can interact with the Sahayak agent at the following URL:
 https://sahayak-531697556153.us-central1.run.app/dev-ui/?app=sahayak
 
 This agent demonstrates the capabilities developed during the hackathon and the practical application of agentic AI in an educational context.
+
+## Setup and Running Locally
+
+To set up and run the project locally, follow these steps:
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone <repository_url>
+    cd agentone
+    ```
+
+2.  **Install dependencies:**
+
+    This project uses `uv` for dependency management. Make sure you have `uv` installed. Then run:
+
+    ```bash
+    uv sync
+    ```
+
+3.  **Set up environment variables:**
+
+    Copy the `.env.sample` file to `.env` and update the values with your credentials and configuration.
+
+    ```bash
+    cp env.sample .env
+    # Edit .env with your settings
+    ```
+
+4.  **Run the agent:**
+
+    You can run the agent using the following command:
+
+    ```bash
+    uv run adk web
+    ```
+
+    This will start the Sahayak agent locally.
