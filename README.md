@@ -72,11 +72,7 @@ Here is a high-level overview of the relevant repository structure:
 The Sahayak agent offers a suite of tools to empower teachers:
 
 *   **Bhasha Bodhak (Hyper-Local Content Creator):** Enables teachers to request culturally rooted content in local languages. Sahayak generates simple, curriculum-aligned material using Gemini and Gemma Multimodal Models.
-*   **Path Karyashala (Lesson & Game Planner):** Auto-generates weekly lesson plans and interactive learning games based on syllabus topics, designed for diverse ability groups.
-*   **Prashn Manthan (Adaptive Exam Paper Generator):** Automatically sets exam papers with topic-based, difficulty-balanced questions. Adapts to class performance trends and includes moral/contextual reasoning-based questions.
 *   **Chitra Patra (Smart Visual & Worksheet Maker):** Allows uploading textbook photos and can generate worksheets for multiple grade levels, including blackboard-friendly diagrams.
-*   **Jigyasa Samadhan (Instant Knowledge Base):** Provides simple, accurate answers to spontaneous student questions in the local language with relatable analogies.
-*   **Vachan Sahayak (Audio & Assessment Assistant):** Uses Vertex AI’s Speech-to-Text AI capability to read poems/passages aloud, supporting oral skills evaluation.
 *   **Agni Pariksha (Offline Readiness):** Deployed with offline-ready support for rural classrooms with low or no connectivity using Gemma multimodal Models.
 *   **Samay Sutra (Smart Student Timetable Planner):** Creates personalized student timetables ensuring balanced study periods, regular breaks, and mindfulness time.
 *   **Sankhya Sthiti (Smart Seating Manager):** Creates optimized seating charts for daily classes or exams, considering learning needs and fairness.
